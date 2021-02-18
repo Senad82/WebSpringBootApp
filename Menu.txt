@@ -1,0 +1,9 @@
+Menu List:
+
+Breakfast
+Lunch
+Diner
+Pizza
+Salads
+Pancakes
+Side Dish
