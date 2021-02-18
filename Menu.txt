@@ -2,9 +2,9 @@ Menu List:
 
 Breakfast
 Lunch
-Diner
+Dinner
 Pizza
 Salads
 Pancakes
 Side Dish
-SpecialMenu
+Special Menu
