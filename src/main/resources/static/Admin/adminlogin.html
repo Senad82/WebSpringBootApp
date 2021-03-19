@@ -1,0 +1,32 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring3-3.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Admin Login</title>
+        <link rel="stylesheet" href="../static/css/adminstyle.css" />
+        <link rel="stylesheet" href="../css/adminstyle.css" type="text/css"/>
+
+        <script src="../loginJS/login.js"></script>
+    </head>
+    <body>
+        <form class="box" action="adminlogin.html" method="POST">
+            <h1>login</h1>
+            <input
+                type="text"
+                name="username"
+                placeholder="Enter username"
+                id="username"
+                />
+            <input
+                type="password"
+                name="password"
+                placeholder="Enter password"
+                id="password"
+                />
+            <input type="submit" name="submit" value="Login" onclick="validate()" />
+        </form>
+    </body>
+</html>
